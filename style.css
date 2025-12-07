@@ -67,7 +67,7 @@
 }
 
 .background{
-    background: rgba(0, 0, 0, 0.7) url('../img/bg2.jpg');
+    background: rgba(0, 0, 0, 0.7) url('bg2.jpg');
     background-size: cover;
     background-blend-mode: darken;
     width: auto;
@@ -257,4 +257,5 @@
     align-items: center;
     padding: 20px;
     font-size: 20px;
+
 }
