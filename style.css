@@ -151,19 +151,22 @@
 .sectionTag{
     font-size: 25px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    padding: 10px 520px;
+    padding: 10px 20px;
     align-content: center;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .subHeading{
     font-size: 25px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    padding: 10px 600px;
+    padding: 10px 20px;
     align-content: center;
+    justify-content: center;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 .sectionRight h2{
@@ -174,8 +177,10 @@
 .sectionsubTag1{
     font-size: 20px;
     font-family: 'ubuntu sans', sans-serif;
-    padding: 10px 200px;
     background: antiquewhite;
+    padding: 10px 200px;
+    align-items: center;
+    justify-content: center;
 }
 
 .thumbnail{
@@ -189,6 +194,8 @@
     border-radius: 20px;
     border: solid gray;
     box-shadow: 10px 10px 5px grey;
+    align-items: center;
+    justify-content: center;
 }
 
 .sectLeft{
@@ -259,3 +266,4 @@
     font-size: 20px;
 
 }
+
