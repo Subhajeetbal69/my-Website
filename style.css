@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img{
+    width: 20%;
+    border: solid gray;
+    border-radius: 100px;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+}
+
+.nav-list{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.nav-list li{
+    list-style: none;
+    padding: 23px;
+}
+
+.nav-list li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.nav-list li a:hover{
+    color: black;
+}
+
+.rightNav{
+    width: 50%;
+    text-align: right;
+    padding: 10px;
+}
+
+#search{
+    padding: 5px;
+    border-radius: 9px;
+    font-size: 17px;
+    border: 2px solid grey;
+    padding-left: 5%;
+}
+
+.bgmain{
+    background-color: grey;
+}
+
+.background{
+    background: rgba(0, 0, 0, 0.7) url('../img/bg2.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+    width: auto;
+    height: 600px;
+}
+
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    max-width: 200%;
+    margin: auto;
+    height: 75%;
+    width: 95%;
+}
+
+.firstsection{
+    height: 100dvh;
+}
+
+.secondHalf{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 80%;
+}
+
+.secondHalf img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border-radius: 20px;
+    border: solid gray;
+    box-shadow: 10px 10px 5px grey;
+    margin-top: 50px;
+}
+
+.firstHalf h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.firstHalf p{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.btn{
+    padding: 5px 10px;
+    font-size: 16px;
+    border: 2px solid white;
+    border-radius: 10px;
+    background: none;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-sm{
+    padding: 3px 10px;
+    vertical-align: middle;
+    font-size: medium;
+}
+
+.sectionRight{
+    height: 500px;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    margin: auto;
+}
+
+.sectionTag{
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 10px 520px;
+    align-content: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.subHeading{
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 10px 600px;
+    align-content: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.sectionRight h2{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.sectionsubTag1{
+    font-size: 20px;
+    font-family: 'ubuntu sans', sans-serif;
+    padding: 10px 200px;
+    background: antiquewhite;
+}
+
+.thumbnail{
+    display: block;
+    margin: 0 auto;
+    width: 65%; 
+}
+
+.thumbnail img{
+    width: 100%;
+    border-radius: 20px;
+    border: solid gray;
+    box-shadow: 10px 10px 5px grey;
+}
+
+.sectLeft{
+    height: 500px;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    margin: auto;
+}
+
+.secPara{
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 20px 200px;
+    text-align: center;
+}
+
+
+.contact{
+    background-color: antiquewhite;
+    height: 430px;
+}
+
+.contact h2{
+    font-size: 40px;
+    text-align: center;
+    padding: 20px;
+}
+
+.contact div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+}
+
+.contact div input{
+    width: 40%;
+    padding: 10px;
+    font-size: 18px;
+    border: 2px solid grey;
+    border-radius: 10px;
+}
+
+.btn-dark{
+    padding: 10px 20px;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.footerPara{
+    background-color: grey;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    font-size: 20px;
+}
