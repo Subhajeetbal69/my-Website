@@ -176,8 +176,9 @@
     font-family: 'ubuntu sans', sans-serif;
     background: antiquewhite;
     padding: 10px 200px;
-    align-items: center;
-    justify-content: center;
+    max-width: 1200px;
+    margin: 20px auto;
+    border-radius: 10px;
 }
 
 .thumbnail{
