@@ -7,7 +7,7 @@
 
   <script>
     (function(){
-        emailjs.init(QKIWUg5ebV4bI70l5); // <-- paste Public Key here
+        emailjs.init("QKIWUg5ebV4bI70l5");
     })();
   </script>
 </head>
@@ -29,7 +29,7 @@
 function sendMail(e){
     e.preventDefault();
 
-    emailjs.send(service_7uotzyn,template_sck02tn,{
+    emailjs.send("service_7uotzyn","template_sck02tn",{
         from_name: document.getElementById("name").value,
         from_email: document.getElementById("email").value,
         message: document.getElementById("message").value
