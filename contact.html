@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contact Us - iEducation</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+
+  <script>
+    (function(){
+        emailjs.init(QKIWUg5ebV4bI70l5); // <-- paste Public Key here
+    })();
+  </script>
+</head>
+
+<body>
+
+<h1>Contact Us</h1>
+
+<form id="contactForm" onsubmit="sendMail(event)">
+  <input type="text" id="name" placeholder="Your Name" required><br><br>
+  <input type="email" id="email" placeholder="Your Email" required><br><br>
+  <textarea id="message" placeholder="Your Message" required></textarea><br><br>
+  <button type="submit">Send Message</button>
+</form>
+
+<p id="status"></p>
+
+<script>
+function sendMail(e){
+    e.preventDefault();
+
+    emailjs.send(service_7uotzyn,template_sck02tn,{
+        from_name: document.getElementById("name").value,
+        from_email: document.getElementById("email").value,
+        message: document.getElementById("message").value
+    })
+    .then(function(response) {
+        document.getElementById("status").innerHTML = "Message sent successfully";
+    }, function(error) {
+        document.getElementById("status").innerHTML = "Failed to send! Try again.";
+    });
+}
+</script>
+
+</body>
+</html>
