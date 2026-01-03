@@ -44,7 +44,8 @@
     }
 
     .about-container h2{
-      margin-top:0;
+      margin-top:25px;
+      margin-bottom:8px;
     }
 
     .mission-box{
@@ -73,6 +74,19 @@
 
 <body>
 
+  <nav class="navbar bgmain">
+        <ul class="nav-list">
+            <div class="logo"><img src="logo.jpg" alt="logo"></div>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="rightNav">
+            <button id="darkToggle">Toggle Dark Mode</button>
+        </div>
+    </nav>
+
 <div class="about-hero">
   <h1>About iEducation</h1>
   <p>Transforming rural education through technology, innovation, and equal access to learning opportunities.</p>
@@ -83,24 +97,77 @@
   <h2>Who We Are</h2>
 
   <p>
-    iEducation works to make quality education accessible to every child, especially in underserved and rural communities.
-    We design and deliver learner-centered programs that strengthen core academic skills, build digital literacy, and
-    encourage creativity and problem-solving.
+    iEducation is a social initiative dedicated to transforming rural education through technology and inclusive learning opportunities.
+    We believe every child deserves quality education, regardless of where they live or what background they come from.
   </p>
 
   <p>
-    By using technology, community partnerships, and supportive learning environments, iEducation helps students stay
-    engaged in school, improves learning outcomes, and opens pathways to higher education and future opportunities.
+    Many rural children face challenges such as lack of digital access, shortage of trained teachers, and limited awareness of career paths.
+    We work to bridge this gap and help students become confident, curious, and future-ready learners.
+  </p>
+
+  <h2>What We Do</h2>
+
+  <p>
+    We design programs that build strong academic foundations while also focusing on digital literacy, creativity, and life skills.
+    Our work includes digital learning labs, STEM workshops, mentorship programs, teacher training, and community education initiatives.
+  </p>
+
+  <ul>
+    <li>digital learning and smart-class support</li>
+    <li>coding, STEM and innovation workshops</li>
+    <li>career guidance and scholarship awareness</li>
+    <li>teacher training and resource support</li>
+    <li>community engagement for rural education</li>
+  </ul>
+
+  <h2>Our Vision</h2>
+
+  <p>
+    Our vision is a world where every child — rural or urban — has equal access to technology, education, and opportunities to succeed.
+    We believe education builds confidence, courage, and character along with knowledge.
   </p>
 
   <div class="mission-box">
     <b>Our Mission</b><br>
-    To empower children with the knowledge and confidence they need to build a better future for themselves and their communities.
+    To empower children with the knowledge, skills and confidence they need to build a better future for themselves and their communities.
   </div>
+
+  <h2>Our Core Values</h2>
+
+  <ul>
+    <li><b>Equity:</b> every child matters</li>
+    <li><b>Innovation:</b> creative solutions for real problems</li>
+    <li><b>Integrity:</b> honesty and transparency</li>
+    <li><b>Community First:</b> we work with people, not just for them</li>
+    <li><b>Sustainability:</b> long-term impact, not temporary charity</li>
+  </ul>
+
+  <h2>Our Impact</h2>
+
+  <p>
+    Students engaged with iEducation develop digital skills, improved academic performance, communication ability,
+    and awareness of future career paths. Teachers receive support and communities begin to value education more deeply.
+  </p>
+
+  <h2>Future Goals</h2>
+
+  <p>
+    We aim to expand to more villages, create digital learning centers, support girl education initiatives,
+    and connect more students with scholarships, mentors, and higher education opportunities.
+  </p>
 
 </div>
 
 <a class="back-btn" href="index.html">← Back to Home</a>
+
+<script>
+  const toggleBtn = document.getElementById("darkToggle");
+
+  toggleBtn.addEventListener("click", () => {
+    document.body.classList.toggle("dark-mode");
+  });
+</script>
 
 </body>
 </html>

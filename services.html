@@ -5,6 +5,7 @@
   <title>Our Services – iEducation</title>
 
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 
   <style>
     *{
@@ -80,10 +81,23 @@
     .back-btn:hover{
       background:black;
     }
+
   </style>
 </head>
 
 <body>
+  <nav class="navbar bgmain">
+        <ul class="nav-list">
+            <div class="logo"><img src="logo.jpg" alt="logo"></div>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="rightNav">
+            <button id="darkToggle">Toggle Dark Mode</button>
+        </div>
+    </nav>
 
 <div class="services-hero">
   <h1>Our Services</h1>
@@ -120,6 +134,14 @@
 </div>
 
 <a class="back-btn" href="index.html">← Back to Home</a>
+
+<script>
+    const btn = document.getElementById("darkToggle");
+
+    btn.addEventListener("click", () => {
+      document.body.classList.toggle("dark-mode");
+    });
+  </script>
 
 </body>
 </html>

@@ -10,14 +10,13 @@
     <nav class="navbar bgmain">
         <ul class="nav-list">
             <div class="logo"><img src="logo.jpg" alt="logo"></div>
-            <li><a href="#Home">Home</a></li>
+            <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About Us</a></li>
             <li><a href="services.html">Services</a></li>
             <li><a href="contact.html">Contact</a></li>
         </ul>
         <div class="rightNav">
-            <input type="text" name="search" id="search">
-            <button class="btn btn-sm">search</button>
+            <button id="darkToggle">Toggle Dark Mode</button>
         </div>
     </nav>
     <section class="background firstSection">
@@ -60,21 +59,17 @@
         </div>
     </section>
 
-    <section class="contact">
-        <h2>Contact Us</h2>
-        <div>
-            <input type="text" name="Name" id="Name" placeholder="Your Name">
-            <input type="text" name="Email ID" id="Email ID" placeholder="Your Email ID">
-            <input type="text" name="Mobile Number" id="Mobile Number" placeholder="Your Mobile Number">
-            <input type="text" name="Message" id="Message" placeholder="Your Message">
-            <button class="btn btn-dark">Submit</button>
-        </div>
-    </section>
-
     <footer>
-        <p class="footerPara">Copyright &copy; 2025 iEducation. All rights reserved.</p>
+        <p class="footerPara">Copyright &copy; 2026 iEducation. All rights reserved.</p>
     </footer>
-    
+
+    <script>
+        const btn = document.getElementById("darkToggle");
+
+        btn.addEventListener("click", () => {
+          document.body.classList.toggle("dark-mode");
+        });
+    </script>
 </body>
 
 </html>
