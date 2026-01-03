@@ -1,173 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>About Us – iEducation</title>
-  <link rel="stylesheet" href="style.css">
-
-  <style>
-    body{
-      margin:0;
-      font-family: Arial, Helvetica, sans-serif;
-      background:#f7f7f7;
-    }
-
-    .about-hero{
-      background:linear-gradient(rgba(0,0,0,0.55),rgba(0,0,0,0.55)), url("bg2.jpg");
-      background-size:cover;
-      background-position:center;
-      padding:90px 40px;
-      color:white;
-      text-align:center;
-    }
-
-    .about-hero h1{
-      font-size:42px;
-      margin-bottom:10px;
-    }
-
-    .about-hero p{
-      font-size:18px;
-      max-width:850px;
-      margin:auto;
-      line-height:1.7;
-    }
-
-    .about-container{
-      max-width:950px;
-      margin:50px auto;
-      background:white;
-      padding:30px 40px;
-      border-radius:12px;
-      box-shadow:0 15px 35px rgba(0,0,0,0.08);
-      line-height:1.8;
-    }
-
-    .about-container h2{
-      margin-top:25px;
-      margin-bottom:8px;
-    }
-
-    .mission-box{
-      margin-top:25px;
-      background:antiquewhite;
-      padding:18px;
-      border-left:5px blue solid;
-      border-radius:8px;
-    }
-
-    .back-btn{
-      text-decoration:none;
-      color:white;
-      background:grey;
-      padding:10px 18px;
-      border-radius:8px;
-      display:inline-block;
-      margin:20px;
-    }
-
-    .back-btn:hover{
-      background:black;
-    }
-  </style>
+  <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
 
-  <nav class="navbar bgmain">
-        <ul class="nav-list">
-            <div class="logo"><img src="logo.jpg" alt="logo"></div>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About Us</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-        <div class="rightNav">
-            <button id="darkToggle">Toggle Dark Mode</button>
-        </div>
+  <!-- ===== NAVBAR ===== -->
+  <header class="header">
+    <nav class="navbar">
+      <div class="navbar__logo">
+        <img src="logo.jpg" alt="iEducation Logo" />
+      </div>
+
+      <ul class="navbar__menu">
+        <li><a href="index.html" class="navbar__link">Home</a></li>
+        <li><a href="about.html" class="navbar__link">About Us</a></li>
+        <li><a href="services.html" class="navbar__link">Services</a></li>
+        <li><a href="contact.html" class="navbar__link">Contact</a></li>
+      </ul>
+
+      <button id="themeToggle" class="btn btn--outline">
+        Toggle Dark Mode
+      </button>
     </nav>
+  </header>
 
-<div class="about-hero">
-  <h1>About iEducation</h1>
-  <p>Transforming rural education through technology, innovation, and equal access to learning opportunities.</p>
-</div>
+  <!-- ===== HERO BANNER ===== -->
+  <section class="hero hero--about fade-in">
+    <div class="container hero__content hero__content--center">
+      <div class="hero__text hero__text--center">
+        <h1 class="hero__title">About iEducation</h1>
 
-<div class="about-container">
+        <p class="hero__description hero__description--wide">
+          Transforming rural education through technology, innovation,
+          and equal access to learning opportunities.
+        </p>
+      </div>
+    </div>
+  </section>
 
-  <h2>Who We Are</h2>
+  <!-- ===== MAIN ABOUT CONTENT CARD ===== -->
+  <section class="section">
+    <div class="container about__card fade-in">
 
-  <p>
-    iEducation is a social initiative dedicated to transforming rural education through technology and inclusive learning opportunities.
-    We believe every child deserves quality education, regardless of where they live or what background they come from.
-  </p>
+      <h2 class="section__title">Our Mission</h2>
+      <div class="about__mission">
+        To empower children with the knowledge, skills and confidence
+        they need to build a better future for themselves and their communities.
+      </div>
 
-  <p>
-    Many rural children face challenges such as lack of digital access, shortage of trained teachers, and limited awareness of career paths.
-    We work to bridge this gap and help students become confident, curious, and future-ready learners.
-  </p>
+      <h2 class="section__title">Who We Are</h2>
+      <p class="section__text">
+        iEducation is a social initiative dedicated to transforming rural education through technology
+        and inclusive learning opportunities. We believe every child deserves quality education,
+        regardless of where they live or their background.
+      </p>
 
-  <h2>What We Do</h2>
+      <p class="section__text">
+        Many rural children face challenges such as lack of digital access, shortage of trained teachers,
+        and limited awareness of career paths. We work to bridge this gap and help students become confident,
+        curious, and future-ready learners.
+      </p>
 
-  <p>
-    We design programs that build strong academic foundations while also focusing on digital literacy, creativity, and life skills.
-    Our work includes digital learning labs, STEM workshops, mentorship programs, teacher training, and community education initiatives.
-  </p>
+      <h2 class="section__title">What We Do</h2>
+      <p class="section__text">
+        We design programs that build strong academic foundations while also focusing on
+        digital literacy, creativity, and life skills.
+      </p>
 
-  <ul>
-    <li>digital learning and smart-class support</li>
-    <li>coding, STEM and innovation workshops</li>
-    <li>career guidance and scholarship awareness</li>
-    <li>teacher training and resource support</li>
-    <li>community engagement for rural education</li>
-  </ul>
+      <ul class="about__list">
+        <li>Digital learning and smart-class support</li>
+        <li>Coding, STEM and innovation workshops</li>
+        <li>Career guidance and scholarship awareness</li>
+        <li>Teacher training and resource support</li>
+        <li>Community engagement for rural education</li>
+      </ul>
 
-  <h2>Our Vision</h2>
+      <h2 class="section__title">Our Core Values</h2>
+      <ul class="about__list">
+        <li><b>Equity:</b> every child matters</li>
+        <li><b>Innovation:</b> creative solutions for real problems</li>
+        <li><b>Integrity:</b> honesty and transparency</li>
+        <li><b>Community First:</b> we work with people, not just for them</li>
+        <li><b>Sustainability:</b> long-term impact</li>
+      </ul>
 
-  <p>
-    Our vision is a world where every child — rural or urban — has equal access to technology, education, and opportunities to succeed.
-    We believe education builds confidence, courage, and character along with knowledge.
-  </p>
+      <h2 class="section__title">Our Vision</h2>
+      <p class="section__text">
+        A world where every child — rural or urban — has equal access to technology,
+        education and opportunities to succeed.
+      </p>
 
-  <div class="mission-box">
-    <b>Our Mission</b><br>
-    To empower children with the knowledge, skills and confidence they need to build a better future for themselves and their communities.
+    </div>
+  </section>
+
+  <!-- ===== BACK BUTTON ===== -->
+  <div class="container" style="text-align:center; margin-bottom:40px;">
+    <a href="index.html" class="btn btn--primary">← Back to Home</a>
   </div>
 
-  <h2>Our Core Values</h2>
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <p class="footer__text">
+      © 2026 iEducation — All Rights Reserved
+    </p>
+  </footer>
 
-  <ul>
-    <li><b>Equity:</b> every child matters</li>
-    <li><b>Innovation:</b> creative solutions for real problems</li>
-    <li><b>Integrity:</b> honesty and transparency</li>
-    <li><b>Community First:</b> we work with people, not just for them</li>
-    <li><b>Sustainability:</b> long-term impact, not temporary charity</li>
-  </ul>
-
-  <h2>Our Impact</h2>
-
-  <p>
-    Students engaged with iEducation develop digital skills, improved academic performance, communication ability,
-    and awareness of future career paths. Teachers receive support and communities begin to value education more deeply.
-  </p>
-
-  <h2>Future Goals</h2>
-
-  <p>
-    We aim to expand to more villages, create digital learning centers, support girl education initiatives,
-    and connect more students with scholarships, mentors, and higher education opportunities.
-  </p>
-
-</div>
-
-<a class="back-btn" href="index.html">← Back to Home</a>
-
-<script>
-  const toggleBtn = document.getElementById("darkToggle");
-
-  toggleBtn.addEventListener("click", () => {
-    document.body.classList.toggle("dark-mode");
-  });
-</script>
+  <!-- ===== DARK MODE ===== -->
+  <script>
+    const toggle = document.getElementById("themeToggle");
+    toggle.addEventListener("click", () => {
+      document.body.classList.toggle("dark-mode");
+    });
+  </script>
 
 </body>
 </html>

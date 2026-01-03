@@ -1,75 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>iEducation-Transforming Rural Education</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>iEducation – Transforming Rural Education</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
-    <nav class="navbar bgmain">
-        <ul class="nav-list">
-            <div class="logo"><img src="logo.jpg" alt="logo"></div>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About Us</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-        <div class="rightNav">
-            <button id="darkToggle">Toggle Dark Mode</button>
-        </div>
+
+  <!-- ================= NAVBAR ================= -->
+  <header class="header">
+    <nav class="navbar">
+      <div class="navbar__logo">
+        <img src="logo.jpg" alt="iEducation Logo" />
+      </div>
+
+      <ul class="navbar__menu">
+        <li><a href="index.html" class="navbar__link">Home</a></li>
+        <li><a href="about.html" class="navbar__link">About Us</a></li>
+        <li><a href="services.html" class="navbar__link">Services</a></li>
+        <li><a href="contact.html" class="navbar__link">Contact</a></li>
+      </ul>
+
+      <button id="themeToggle" class="btn btn--outline">
+        Toggle Dark Mode
+      </button>
     </nav>
-    <section class="background firstSection">
-            <div class="box-main">
-               <div class="firstHalf">
-                   <h1 class="text-big">iEducation</h1>
-                   <p class="text-small">
-                       Transforming Rural Education: Empowering Communities through Technology and Innovation. We are transforming rural education by bringing quality learning resources directly to students previously had limited access. Through digital lessons, interactive content, and personalized learning tools, the platform helps bridge the gap between rural and urban education.It empowers students to learn at their own pace and introduces modern technology into classrooms that often lack adequate infrastructure. By making education more accessible, engaging, and affordable, iEducation is creating new opportunities for rural learners and helping them build a stronger future.</p>
-                   <div class="button">
-                       <a href="https://www.youtube.com/watch?v=pBKbrugW_Q0" target="_blank" class="btn">
-                           Watch Video
-                       </a>
-                   </div>
-               </div>
-               <div class="secondHalf">
-                   <img src="bg.jpg" alt="education" class="edu">
-               </div>
-           </div>
-    </section>
+  </header>
 
-    <section class="secLeft">
-        <p class="secPara">
-            "Education is the most powerful weapon which you can use to change the world." -               Nelson Mandela
+  <!-- ================= HERO SECTION ================= -->
+  <section class="hero fade-in">
+    <div class="container hero__content">
+
+      <div class="hero__text">
+        <h1 class="hero__title">iEducation</h1>
+
+        <p class="hero__description">
+          Transforming Rural Education through technology and innovation by bringing quality
+          learning resources directly to students who previously had limited access. Through
+          digital lessons, interactive content, and personalized learning tools, we help bridge
+          the gap between rural and urban education. iEducation empowers students to learn at
+          their own pace and introduces modern technology into classrooms that often lack
+          adequate infrastructure.
         </p>
-    </section>
 
-    <section class="secRight">
-        <p class="sectionTag">Education is not expensive anymore.</p>
-        <p class="sectionsubTag1">iEducation is playing a transformative role in reshaping the educational landscape for economically disadvantaged students by promoting equal access, modern learning opportunities, and quality academic support. In many underserved communities, poor students face systemic challenges such as inadequate school infrastructure, limited availability of trained teachers, outdated curricula, and minimal exposure to technology. These obstacles not only affect their academic performance but also restrict their future career prospects. iEducation seeks to eliminate these barriers by offering a comprehensive digital learning platform that brings high-quality education directly to the students who need it the most.
-            One of the most significant contributions of iEducation is its ability to provide accessible and affordable learning resources. For many low-income families, purchasing textbooks, guidebooks, or paying for private tuition is financially impossible. iEducation addresses this gap by offering free or low-cost study materials, interactive video lectures, practice tests, and personalized guidance. This ensures that students from poor backgrounds receive the same academic support that is available to those from privileged settings. By reducing financial burdens, iEducation enables students to focus entirely on learning rather than worrying about expenses.
-        </p>
-        <p class="subHeading">What this platform offers.</p>
-        <p class="sectionsubTag1">    
-            This platform introduces technologically advanced and student-centric teaching methods. Traditional classroom environments often do not allow individual attention due to overcrowded classes and limited instructional time. iEducation’s digital model, however, allows students to learn at their own pace. Lessons can be replayed, paused, or reviewed multiple times, giving students the freedom to fully grasp concepts without feeling rushed or left behind. This personalized approach greatly benefits first-generation learners who may require additional time and support to understand complex topics. Furthermore, the availability of lessons in regional languages makes education more inclusive and easier to comprehend.
-            Moreover, iEducation fosters a culture of self-learning, curiosity, and continuous improvement. Students are encouraged to explore subjects independently, think critically, and develop problem-solving skills—qualities that are essential for long-term success. The platform also builds a sense of community by connecting learners from various regions, allowing them to share knowledge, discuss challenges, and inspire one another.
-            Ultimately, iEducation is not merely an educational platform; it is a catalyst for social change. By democratizing education and making high-quality learning accessible to poor students, it empowers an entire generation to overcome economic limitations and build a brighter future. Through its innovative approach, iEducation is redefining the meaning of inclusive education and contributing significantly towards a more equitable and progressive society.
-        </p>
-        <div class="thumbnail">
-            <img src="bg3.jpg" alt="image" class="imgFluid">
-        </div>
-    </section>
+        <a href="https://www.youtube.com/watch?v=pBKbrugW_Q0" target="_blank" class="btn btn--primary">
+          Watch Video
+        </a>
+      </div>
 
-    <footer>
-        <p class="footerPara">Copyright &copy; 2026 iEducation. All rights reserved.</p>
-    </footer>
+      <div class="hero__image">
+        <img src="bg.jpg" alt="Students learning" class="image--rounded" />
+      </div>
 
-    <script>
-        const btn = document.getElementById("darkToggle");
+    </div>
+  </section>
 
-        btn.addEventListener("click", () => {
-          document.body.classList.toggle("dark-mode");
-        });
-    </script>
+  <!-- ================= QUOTE SECTION ================= -->
+  <section class="quote">
+    <p class="quote__text">
+      “Education is the most powerful weapon which you can use to change the world.”
+      <span class="quote__author">– Nelson Mandela</span>
+    </p>
+  </section>
+
+  <!-- ================= ABOUT SECTION ================= -->
+  <section class="section fade-in">
+    <div class="container">
+
+      <h2 class="section__title">Education is not expensive anymore</h2>
+
+      <p class="section__text">
+        iEducation is playing a transformative role in reshaping the educational landscape for economically disadvantaged students by promoting equal access, modern learning opportunities, and quality academic support. In many underserved communities, poor students face systemic challenges such as inadequate school infrastructure, limited availability of trained teachers, outdated curricula, and minimal exposure to technology. These obstacles not only affect their academic performance but also restrict their future career prospects. iEducation seeks to eliminate these barriers by offering a comprehensive digital learning platform that brings high-quality education directly to the students who need it the most. One of the most significant contributions of iEducation is its ability to provide accessible and affordable learning resources. For many low-income families, purchasing textbooks, guidebooks, or paying for private tuition is financially impossible. iEducation addresses this gap by offering free or low-cost study materials, interactive video lectures, practice tests, and personalized guidance. This ensures that students from poor backgrounds receive the same academic support that is available to those from privileged settings. By reducing financial burdens, iEducation enables students to focus entirely on learning rather than worrying about expenses.
+      </p>
+
+      <h2 class="section__title">What this platform provides</h2>
+      <p class="section__text">
+        This platform introduces technologically advanced and student-centric teaching methods. Traditional classroom environments often do not allow individual attention due to overcrowded classes and limited instructional time. iEducation’s digital model, however, allows students to learn at their own pace. Lessons can be replayed, paused, or reviewed multiple times, giving students the freedom to fully grasp concepts without feeling rushed or left behind. This personalized approach greatly benefits first-generation learners who may require additional time and support to understand complex topics. Furthermore, the availability of lessons in regional languages makes education more inclusive and easier to comprehend. Moreover, iEducation fosters a culture of self-learning, curiosity, and continuous improvement. Students are encouraged to explore subjects independently, think critically, and develop problem-solving skills—qualities that are essential for long-term success. The platform also builds a sense of community by connecting learners from various regions, allowing them to share knowledge, discuss challenges, and inspire one another. Ultimately, iEducation is not merely an educational platform; it is a catalyst for social change. By democratizing education and making high-quality learning accessible to poor students, it empowers an entire generation to overcome economic limitations and build a brighter future. Through its innovative approach, iEducation is redefining the meaning of inclusive education and contributing significantly towards a more equitable and progressive society.
+      </p>
+
+      <div class="section__image">
+        <img src="bg3.jpg" alt="Rural education initiative" class="image--rounded" />
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="footer">
+    <p class="footer__text">
+      © 2026 iEducation — All Rights Reserved
+    </p>
+  </footer>
+
+  <!-- ================= DARK MODE SCRIPT ================= -->
+  <script>
+    const themeBtn = document.getElementById("themeToggle");
+    themeBtn.addEventListener("click", () => {
+      document.body.classList.toggle("dark-mode");
+    });
+  </script>
+
 </body>
-
 </html>
