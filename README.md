@@ -7,10 +7,14 @@ The project demonstrates clean UI/UX, JavaScript interactivity, dark mode, form 
 https://subhajeetbal69.github.io/my-Website/
 
 👤 Author Details
-Field	Information
+
 Name	Subhajeet Bal, 125CS0091
+
 Topic	iEducation – Transforming Rural Education
+
 Type	Web Development Project
+
+
 🎯 Project Overview
 
 The goal of iEducation is to:
