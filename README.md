@@ -8,7 +8,7 @@ https://subhajeetbal69.github.io/my-Website/
 
 👤 Author Details
 Field	Information
-Name	Subhajeet Bal
+Name	Subhajeet Bal, 125CS0091
 Topic	iEducation – Transforming Rural Education
 Type	Web Development Project
 🎯 Project Overview
