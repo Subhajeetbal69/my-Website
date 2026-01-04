@@ -96,19 +96,31 @@ Works on:
 
 <img width="2508" height="4016" alt="subhajeetbal69 github io_my-Website_" src="https://github.com/user-attachments/assets/44c58229-0202-40c1-8272-b121daa4f975" />
 
+<img width="2508" height="4016" alt="subhajeetbal69 github io_my-Website_index html" src="https://github.com/user-attachments/assets/6dbb2176-0855-4601-9d80-ac58e35c7f87" />
+
 Home Page
 
 <img width="2508" height="3262" alt="subhajeetbal69 github io_my-Website_about html" src="https://github.com/user-attachments/assets/14d78b29-5644-4490-bc12-835cb5f6f286" />
+
+<img width="2508" height="3262" alt="subhajeetbal69 github io_my-Website_about html (1)" src="https://github.com/user-attachments/assets/36bde98f-43f6-4cfa-aa5d-d7593f754b44" />
 
 About Page
 
 <img width="2508" height="2114" alt="subhajeetbal69 github io_my-Website_services html" src="https://github.com/user-attachments/assets/8c62adc1-b1cc-4e2e-8b74-932792080f44" />
 
+<img width="2508" height="2114" alt="subhajeetbal69 github io_my-Website_services html (1)" src="https://github.com/user-attachments/assets/a294309f-4cbe-41fc-955e-cc7a970b8c08" />
+
 Services Page
 
 <img width="2508" height="1836" alt="subhajeetbal69 github io_my-Website_contact html" src="https://github.com/user-attachments/assets/a8159a36-6181-4458-aef3-b2c7d8b74f7b" />
 
+<img width="2508" height="1836" alt="subhajeetbal69 github io_my-Website_contact html (1)" src="https://github.com/user-attachments/assets/79a23f17-5acd-4f8f-af07-610f353cfef8" />
+
 Contact Page
+
+<img width="2508" height="1836" alt="subhajeetbal69 github io_my-Website_contact html (3)" src="https://github.com/user-attachments/assets/d5da0dca-f5a0-4f68-9517-010d9e81bca5" />
+
+Working EmailJs
 
 🛠️ Tech Stack
 
